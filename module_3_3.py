@@ -11,8 +11,10 @@ print_params(5, 8)
 
 values_list = [1, 2, 3]
 values_dict = {'a': 3, 'b': 2, 'c': 1}
+print()
 print_params(*values_list)
 print_params(**values_dict)
 
 values_list_2 = [54.32, 'Строка']
+print()
 print_params(*values_list_2, 42)
